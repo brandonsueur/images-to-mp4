@@ -1,0 +1,11 @@
+{
+  "name": "images-to-mp4",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/brandonsueur/images-to-mp4.git",
+  "author": "brandonsueur <brandonsueur@outlook.fr>",
+  "license": "MIT",
+  "devDependencies": {
+    "mp4-mjpeg": "^0.0.2"
+  }
+}
