@@ -5,7 +5,7 @@
   "repository": "https://github.com/brandonsueur/images-to-mp4.git",
   "author": "brandonsueur <brandonsueur@outlook.fr>",
   "license": "MIT",
-  "devDependencies": {
-    "mp4-mjpeg": "^0.0.2"
+  "dependencies": {
+    "videoshow": "^0.1.12"
   }
 }
