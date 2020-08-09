@@ -7,6 +7,7 @@ var images = [
   "images/5.jpg",
   "images/6.jpg",
 ];
+
 var videoOptions = {
   fps: 25,
   loop: 5,
@@ -22,7 +23,7 @@ var videoOptions = {
 };
 
 videoshow(images, videoOptions)
-  .save("video.mp4")
+  .save("video1.mp4")
   .on("start", (command) => console.log("ffmpeg process started:", command))
   .on("error", (err, stdout, stderr) => {
     console.error("Error:", err);
